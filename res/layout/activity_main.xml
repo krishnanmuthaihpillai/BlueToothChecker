@@ -1,0 +1,119 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+          <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Bluetooth Checker" />
+    </LinearLayout>
+
+  
+
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:weightSum="2">
+    <LinearLayout
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/paired_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:layout_gravity="center"
+            android:text="Paired Devices" />
+        
+    </LinearLayout>
+      <LinearLayout
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+          <Button
+              android:id="@+id/scan_device"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              android:text="Scan For Devices" />
+        
+    </LinearLayout>
+</LinearLayout>
+
+ <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+          <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="SELECT YOUR DEVICE" />
+    </LinearLayout>
+    <LinearLayout
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/select_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:layout_gravity="center"
+            android:text="Select Devices" />
+        
+    </LinearLayout>
+ <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="#000000"
+        android:orientation="vertical">
+          <TextView
+        android:id="@+id/selected_devicename_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:text="SELECTED DEVICE" />
+    </LinearLayout>
+     <LinearLayout
+         android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/verify_device"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+              android:layout_gravity="center"
+            android:text="Verify Devices" />
+        
+    </LinearLayout>
+</LinearLayout>
+
+
